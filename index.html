@@ -11,51 +11,71 @@
 <body>
 
     <header>
-        <h1>
-            Bo Amarant's Portfolio
-        </h1>
+        <h1>Bo Amarant's Portfolio</h1>
         <nav>
             <ul>
                 <li>
-                    <a>About Me</a>
+                    <a href="#about-me-header">About Me</a>
                 </li>
                 <li>
-                    <a>Work</a>
+                    <a href="#horiseon">Work</a>
                 </li>
                 <li>
-                    <a>Contact</a>
+                    <a href="#start-footer">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
+    <div class="banner">
+
+    </div>
+
     <main>
-        <section>
-            <h2>Module 1 Challenge</h2>
+        <section class="about-me">
+            <h2 id="about-me-header">About Me</h2>
+                <div class="row justify-center">
+                    <p id="about-me-text">My name is Bo Amarant. I am a student in Columbia University's Coding Bootcamp. Aside from one course in high school, this is my first experience in programming. Below you can find some of the projects I have worked on in the bootcamp.</p>
+                    <image id="about-me-self" src="./assets/images/me.png" alt="Image of Bo Amarant"></image>
+                </div>
         </section>
-        <section>
-            <h3>Example Project</h3>
+
+        <section id="horiseon" class="project-main">
+            <h2 class="project-main-text"><a href="https://boamarant.github.io/Module-1-Challenge/">Module 1 Challenge</a></h2>
         </section>
-        <section>
-            <h3>Example Project</h3>
-        </section>
-        <section>
-            <h3>Example Project</h3>
-        </section>
-        <section>
-            <h3>Example Project</h3>
-        </section>
+
+        <div class="row justify-center">
+            <section id="beach" class="example-project">
+                <h3 class="example-project-text"><a href="#">Example Project</a></h3>
+            </section>
+            <section id="stars" class="example-project">
+                <h3 class="example-project-text"><a href="#">Example Project</a></h3>
+            </section>
+            <section id="desert" class="example-project">
+                <h3 class="example-project-text"><a href="#">Example Project</a></h3>
+            </section>
+            <section id="aurora" class="example-project">
+                <h3 class="example-project-text"><a href="#">Example Project</a></h3>
+            </section>
+        </div>
     </main>
-    <aside>
-        <div>
-            <h1>About Me</h1>
+
+    <footer>
+        <div id="start-footer">
         </div>
-        <div>
-            <h1>Work</h1>
-        </div>
-        <div>
-            <h1>Contact</h1>
-        </div>
-    </aside>
+        <section class="contact">
+            <ul>
+                <li>
+                    <a href="bobamarant8@gmail.com">📧 bobamarant8@gmail.com</a>
+                </li>
+                <li>
+                    <a href="#horiseon">📞 555-555-5555</a>
+                </li>
+                <li>
+                    <a href="https://github.com/boamarant">GitHub</a>
+                </li>
+            </ul>
+    </footer>
+    
 
 </body>
