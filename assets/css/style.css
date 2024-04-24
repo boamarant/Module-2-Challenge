@@ -1,0 +1,65 @@
+:root{
+    --black: black;
+    --lightblue: lightblue;
+    --indigo: rgb(39, 39, 95);
+    --white: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--black);
+    background-color: var(--lightblue);
+}
+
+/* HEADER */
+
+header{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--indigo);
+    color: var(--white);
+}
+
+header h1{
+    display: inline-block;
+    margin-left: 340px;
+}
+
+header nav {
+    float: right;
+    text-align: right;
+    display: inline;
+    font-size: 24px;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+header nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+/* TEXT STYLES */
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 16px;
+}
+
+/* Divider with Image */
+
+.banner{
+    height: 400px;
+    width: 100%;
+    
+}
